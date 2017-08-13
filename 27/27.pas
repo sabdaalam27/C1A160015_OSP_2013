@@ -10,8 +10,8 @@ for i:= length(kalimat) downto 1 do
 begin
  if pos(kalimat[i], base) > 0 then
  kata:= kata + kalimat[i];
- writeln(kata);
 end;
+writeln(kata);
 readkey;
 end.
 
